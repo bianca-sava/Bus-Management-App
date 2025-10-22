@@ -1,16 +1,15 @@
-package com.example.busmanagementapp.modell;
+package com.example.busmanagementapp.model;
 
 import java.util.List;
 
-public class Driver extends Staff{
+public class TripManager extends Staff {
     private List<DutyAssignment> assignments;
-    private String yearsOfExperience;
+    private String employeeCode;
 
-    public Driver(String id, String name, String yearsOfExperience) {
+    public TripManager(String id, String name,  String employeeCode) {
         super(id, name);
-        this.yearsOfExperience = yearsOfExperience;
+        this.employeeCode = employeeCode;
     }
-
 
     /// Getters
     //region
@@ -24,8 +23,8 @@ public class Driver extends Staff{
         return name;
     }
 
-    public String getYearsOfExperience() {
-        return yearsOfExperience;
+    public String getEmployeeCode() {
+        return employeeCode;
     }
 
     public List<DutyAssignment> getAssignments() {
@@ -46,8 +45,8 @@ public class Driver extends Staff{
         this.name = name;
     }
 
-    public void setYearsOfExperience(String yearsOfExperience) {
-        this.yearsOfExperience = yearsOfExperience;
+    public void setEmployeeCode(String employeeCode) {
+        this.employeeCode = employeeCode;
     }
 
     public void setAssignments(List<DutyAssignment> assignments) {

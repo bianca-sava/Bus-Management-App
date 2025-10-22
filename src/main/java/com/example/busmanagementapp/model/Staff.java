@@ -10,10 +10,12 @@ public abstract class Staff {
     }
 
     /// Getters
+
     public abstract String getId();
     public abstract String getName();
 
     /// Setters
+
     public abstract void setId(String id);
     public abstract void setName(String name);
 

@@ -60,9 +60,4 @@ public class BusStation {
                 ", trips=" + trips +
                 '}';
     }
-
-    /// Mathod to add a trip
-    public void addTrip(BusTrip trip) {
-        this.trips.add(trip);
-    }
 }

@@ -12,7 +12,8 @@ public class TripManager extends Staff {
     }
 
     /// Getters
-    //region
+
+//region
     @Override
     public String getId() {
         return id;
@@ -30,11 +31,12 @@ public class TripManager extends Staff {
     public List<DutyAssignment> getAssignments() {
         return assignments;
     }
-    //endregion
+//endregion
 
 
     /// Setters
-    //region
+
+//region
     @Override
     public void setId(String id) {
         this.id = id;
@@ -52,5 +54,16 @@ public class TripManager extends Staff {
     public void setAssignments(List<DutyAssignment> assignments) {
         this.assignments = assignments;
     }
-    //endregion
+//endregion
+
+
+    @Override
+    public String toString() {
+        return "TripManager{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", assignments=" + assignments +
+                ", employeeCode='" + employeeCode + '\'' +
+                '}';
+    }
 }

@@ -1,11 +1,9 @@
 package com.example.busmanagementapp.model;
 
-import com.example.busmanagementapp.modell.DutyAssignment;
-
 import java.util.List;
 
-public class Driver extends Staff {
-    private List<com.example.busmanagementapp.modell.DutyAssignment> assignments;
+public class Driver extends Staff{
+    private List<DutyAssignment> assignments;
     private String yearsOfExperience;
 
     public Driver(String id, String name, String yearsOfExperience) {
@@ -30,7 +28,7 @@ public class Driver extends Staff {
         return yearsOfExperience;
     }
 
-    public List<com.example.busmanagementapp.modell.DutyAssignment> getAssignments() {
+    public List<DutyAssignment> getAssignments() {
         return assignments;
     }
     //endregion

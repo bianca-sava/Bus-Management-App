@@ -1,4 +1,4 @@
-package com.example.busmanagementapp.modell;
+package com.example.busmanagementapp.model;
 
 public abstract class Staff {
     protected String id;

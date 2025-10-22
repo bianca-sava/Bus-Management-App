@@ -71,9 +71,4 @@ public class Route {
                 ", trips=" + trips +
                 '}';
     }
-
-    /// Method to add a trip to the route
-    public void addTrip(BusTrip trip) {
-        this.trips.add(trip);
-    }
 }

@@ -2,14 +2,14 @@ package com.example.busmanagementapp.model;
 
 import java.util.List;
 
-public class Pasenger {
+public class Passenger {
     private String id;
     private String name;
     private String currency;
     private List<Ticket> tickets;
 
     /// Constructor
-    public Pasenger(String id, String name, String currency) {
+    public Passenger(String id, String name, String currency) {
         this.id = id;
         this.name = name;
         this.currency = currency;
